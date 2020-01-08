@@ -61,7 +61,9 @@ with open(csvpath, newline='') as csvfile:
         txtfile.write("-------------------------\n")
         txtfile.write(f"Total Votes: {total_votes}\n")
         txtfile.write("-------------------------\n")
-        txtfile.write(f"{candidate['name']}: {round((candidate['votes'] / total_votes)*100, 2)}% ({candidate['votes']})\n")
+        for candidate in candidate_nms:
+            txtfile.write(f"{candidate['name']}: {round((candidate['votes'] / total_votes)*100, 2)}% ({candidate['votes']})\n")
         txtfile.write("-------------------------\n")
         txtfile.write(f"Winner: {candidate_winner}\n")
         txtfile.write("-------------------------\n")
+        txtfile.close()

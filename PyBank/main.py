@@ -67,3 +67,4 @@ with open(csvpath, newline='') as csvfile:
         txtfile.write(f"Average Change: ${float(round(avg_change, 2))}\n")
         txtfile.write(f"Greatest Increase in Profits: {grt_inc_month} (${grt_inc})\n")
         txtfile.write(f"Greatest Decrease in Profits: {grt_dec_month} (${grt_dec})\n")
+        txtfile.close()
