@@ -4,8 +4,8 @@
 
 import os
 import csv
-file = 'GT-ATL-DATA-PT-12-2019-U-C/Homework/03-Python/Instructions/PyPoll/Resources'
-csvpath = os.path.join('..','..', file, 'election_data.csv')
+#file = 'GT-ATL-DATA-PT-12-2019-U-C/Homework/03-Python/Instructions/PyPoll/Resources'
+csvpath = 'election_data.csv'
 
 #======================================================================================================
 #[1] 1st Loop & Print Values to terminal

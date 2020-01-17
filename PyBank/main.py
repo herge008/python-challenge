@@ -4,8 +4,8 @@
 
 import os
 import csv
-file = 'GT-ATL-DATA-PT-12-2019-U-C/Homework/03-Python/Instructions/PyBank/Resources'
-csvpath = os.path.join('..','..', file, 'budget_data.csv')
+#file = 'GT-ATL-DATA-PT-12-2019-U-C/Homework/03-Python/Instructions/PyBank/Resources'
+csvpath = 'budget_data.csv'
 
 #======================================================================================================
 #[1] Loop
